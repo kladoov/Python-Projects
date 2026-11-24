@@ -203,7 +203,7 @@ Las funciones pueden devolver un valor con `return` ya sea un valor real o `None
 **Nota**: una variable que existe fuera de una función tiene alcance dentro del cuerpo de la función.
 
  Se puede emplear la palabra clave reservada global seguida por el nombre de una variable para que el alcance de la variable sea global:
- ```
+```
 var = 2
 print(var) # salida: 2
 
@@ -214,7 +214,7 @@ def return_var():
 
 print(return_var()) # salida: 5
 print(var) # salida: 5
- ```
+```
 
 Una función puede invocar otras funciones o incluso a sí misma. Cuando una función se invoca a si misma, se le conoce como **recursividad**, y la función que se invoca a si misma y contiene una condición de terminación (la cual le dice a la función que ya no siga invocándose a si misma) es llamada una función **recursiva**.
 
